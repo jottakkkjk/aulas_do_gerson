@@ -1,0 +1,9 @@
+<script>
+    const ht = Number(prompt('Informe as horas trabalhadas'));
+    const vh = Number(prompt('Informe o valor da hora trabalhada'));
+    const pd = 0.10;
+    const sb = ht * vh;
+    const td = pd * sb;
+    const sl = sb - td;
+    alert(`Horas trabalhadas: ${ht}hr, salário bruto R$ ${sb.toFixed(2)}, desconto R$ ${td.toFixed(2)} e salário líquido R$ ${sl.toFixed(2)}`);
+</script>

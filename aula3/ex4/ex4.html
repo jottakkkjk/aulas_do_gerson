@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <form id="converter-form">
+        <label for="valor-brl">Valor em Reais (BRL):</label>
+        <input type="number" id="valor-brl" name="valor-brl" placeholder="Digite o valor em BRL">
+
+        <label for="moeda">Converter Para:</label>
+        <select name="moeda" id="moeda">
+        <option value="usd">Dólares (USD)</option>
+        <option value="eur">Euros (EUR)</option>
+        </select>
+        <button type="button" onclick="converter()">Converter</button>
+        </form>
+    <div id="resultado">
+        <h2>Resultado</h2>
+        <p id="resultado-texto">Digite um valor e escolha a moeda para ver o resultado</p>
+    </div>
+    </div>
+    <script src="ex4.js"></script>
+    
+</body>
+</html>
