@@ -1,4 +1,3 @@
-function calcularSomaMatriz() {
     let matriz = [
         [1, 2, 3],
         [4, 5, 6],
@@ -13,12 +12,7 @@ function calcularSomaMatriz() {
         }
     }
 
-    console.log("Matriz 3x3:");
-    for (let i = 0; i < 3; i++) {
-        console.log(matriz[i].join(' '));
-    }
 
     console.log("Soma de todos os elementos da matriz:", soma);
-}
 
-calcularSomaMatriz();
+

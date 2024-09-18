@@ -1,5 +1,4 @@
 const prompt = require('prompt-sync')()
-function criarMatrizDiagonalSecundaria() {
     let matriz = [
         [0, 0, 0],
         [0, 0, 0],
@@ -14,6 +13,5 @@ function criarMatrizDiagonalSecundaria() {
     for (let i = 0; i < 3; i++) {
         console.log(matriz[i].join(' '));
     }
-}
 
-criarMatrizDiagonalSecundaria();
+

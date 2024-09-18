@@ -1,5 +1,4 @@
 const prompt = require('prompt-sync')()
-function verificarNome() {
     let nomes = [
         "Ana", "Carlos", "Mariana", "Pedro", "Lucas",
         "Julia", "Fernando", "Isabela", "Roberto", "Larissa"
@@ -14,6 +13,3 @@ function verificarNome() {
     } else {
         console.log("NÃO ACHEI");
     }
-}
-
-verificarNome();

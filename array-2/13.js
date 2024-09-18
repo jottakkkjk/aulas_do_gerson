@@ -1,5 +1,4 @@
 const prompt = require('prompt-sync')() 
-function criarMatrizIdentidade() {
     let matriz = [
         [0, 0, 0],
         [0, 0, 0],
@@ -14,6 +13,4 @@ function criarMatrizIdentidade() {
     for (let i = 0; i < 3; i++) {
         console.log(matriz[i].join(' '));
     }
-}
 
-criarMatrizIdentidade();

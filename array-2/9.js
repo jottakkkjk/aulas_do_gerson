@@ -1,22 +1,15 @@
 const prompt = require('prompt-sync')()
-function preencherVetor(n) {
-    if (isNaN(n) || n <= 0) {
-        console.log("Por favor, insira um número válido maior que 0.");
-        return;
+const n = parseInt(prompt('digite o numero de elementos: '))
+let array = [];
+
+for (let i = 0; i < n; i++){
+    if (i % 2 !== 0){
+        array.push("Impar");
     }
-
-    let vetor = [];
-
-    for (let i = 0; i < n; i++) {
-        if (i % 2 === 0) {
-            vetor.push("Par");
-        } else {
-            vetor.push("Ímpar");
+        else {
+            array.push("Par");
         }
     }
-
-    console.log("Vetor preenchido:", vetor);
-}
-
-let tamanho = prompt("Insira o número de elementos do vetor:");
-preencherVetor(Number(tamanho));
+    console.log('Array preenchido: ');
+    console.log(array);
+    
